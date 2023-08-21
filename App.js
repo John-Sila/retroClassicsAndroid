@@ -8,7 +8,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 // the default app
 export default function App() {
-  // states
+  // states in hooks
   let menuNav = useRef(null);
 
   useEffect( () => {
